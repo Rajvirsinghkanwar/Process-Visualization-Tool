@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cd899bf2d5.js" crossorigin="anonymous"></script>
+</head>
+<body class="min-h-screen font-Spartan">
+    <!-- navbar -->
+    <section id="header" class="flex items-center justify-between py-5 px-20 bg-[#E3E6F3] shadow-md sticky top-0 z-50">
+        <a href="#"><img src="image/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar" class="flex items-center justify-center space-x-10 ">
+                <li><a href="index.html" class="text-lg font-medium text-[#1a1a1a] hover:text-[#088178] active">Home</a></li>
+                <li><a href="shop.html" class="text-lg font-medium text-[#1a1a1a] hover:text-[#088178]">Shop</a></li>
+                <li><a href="blog.html" class="text-lg font-medium text-[#1a1a1a] hover:text-[#088178]">Blog</a></li>
+                <li><a href="about.html" class="text-lg font-medium text-[#1a1a1a] hover:text-[#088178]">About</a></li>
+                <li><a href="contact.html" class="text-lg font-medium text-[#1a1a1a] hover:text-[#088178]">Contact</a></li>
+                <li><a href="cart.html"><i class="fa-solid fa-bag-shopping hover:text-[#088178]"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- hero section -->
+    <section id="hero" class="bg-cover bg-top-25 bg-right-0 h-[90vh] flex flex-col items-start justify-center px-20" style="background-image: url('image/hero4.png');">
+        <h4 class="font-semibold pb-4 text-xl">Trade-in-offer</h4>
+        <h2 class="font-bold text-5xl ">Super value deals</h2>
+        <h1 class="font-bold text-5xl text-[#088178]">On all products</h1>
+        <p class="text-lg">Save more with coupons & up to 70% off!</p>
+        <button class="bg-transparent text-[#088178] border-0 py-3 px-20 mt-4">Shop Now</button>
+    </section>
+
+    <!-- feature -->
+    <section id="feature" class="pt-10 pb-10 px-20 flex flex-wrap justify-between">
+        <div class="fe-box w-44 text-center p-6 shadow-md border border-[#cce7d0] rounded-lg m-2 hover:shadow-lg">
+            <img src="image/feature/f1.png" alt="" class="w-full mb-2">
+            <h6 class="bg-[#fddde4] text-[#088178] rounded-md p-2">Free Shipping</h6>
+        </div>
+        <div class="fe-box w-44 text-center p-6 shadow-md border border-[#cce7d0] rounded-lg m-2 hover:shadow-lg">
+            <img src="image/feature/f2.png" alt="" class="w-full mb-2">
+            <h6 class="bg-green-700 text-white rounded-md p-2">Online Order</h6>
+        </div>
+        <div class="fe-box w-44 text-center p-6 shadow-md border border-[#cce7d0] rounded-lg m-2 hover:shadow-lg">
+            <img src="image/feature/f3.png" alt="" class="w-full mb-2">
+            <h6 class="bg-[#fddde4] text-[#088178] rounded-md p-2">Save Money</h6>
+        </div>
+        <div class="fe-box w-44 text-center p-6 shadow-md border border-[#cce7d0] rounded-lg m-2 hover:shadow-lg">
+            <img src="image/feature/f4.png" alt="" class="w-full mb-2">
+            <h6 class="bg-[#fddde4] text-[#088178] rounded-md p-2">Promotions</h6>
+        </div>
+        <div class="fe-box w-44 text-center p-6 shadow-md border border-[#cce7d0] rounded-lg m-2 hover:shadow-lg">
+            <img src="image/feature/f5.png" alt="" class="w-full mb-2">
+            <h6 class="bg-[#fddde4] text-[#088178] rounded-md p-2">Happy Sell</h6>
+        </div>
+        <div class="fe-box w-44 text-center p-6 shadow-md border border-[#cce7d0] rounded-lg m-2 hover:shadow-lg">
+            <img src="image/feature/f6.png" alt="" class="w-full mb-2">
+            <h6 class="bg-[#fddde4] text-[#088178] rounded-md p-2">24/7 Support</h6>
+        </div>
+    </section>
+
+    <!-- product 1 -->
+    <section id="product1" class="pt-10 pb-10 px-20 text-center">
+        <h2 class="font-bold text-3xl">Featured Products</h2>
+        <p class="text-lg">Summer Collection New Modern Design</p>
+        <div class="pro-container flex justify-between pt-10 flex-wrap">
+            <div class="pro w-1/4 min-w-[250px] p-3 border border-[#cce7d0] rounded-2xl shadow-md m-2 transition duration-300 hover:shadow-lg relative">
+                <img src="image/products/f1.jpg" alt="" class="w-full rounded-lg">
+                <div class="des text-left p-2">
+                    <span class="text-gray-600 text-sm">adidas</span>
+                    <h5 class="font-bold text-lg">Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                    </div>
+                    <h4 class="font-bold text-[#088178]">$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping absolute bottom-5 right-5 w-10 h-10 flex items-center justify-center rounded-full bg-[#e8f6ea] border border-[#cce7d0] text-[#088178]"></i></a>
+            </div>
+            <!-- Repeat for other products -->
+            <div class="pro w-1/4 min-w-[250px] p-3 border border-[#cce7d0] rounded-2xl shadow-md m-2 transition duration-300 hover:shadow-lg relative">
+                <img src="image/products/f2.jpg" alt="" class="w-full rounded-lg">
+                <div class="des text-left p-2">
+                    <span class="text-gray-600 text-sm">adidas</span>
+                    <h5 class="font-bold text-lg">Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                    </div>
+                    <h4 class="font-bold text-[#088178]">$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping absolute bottom-5 right-5 w-10 h-10 flex items-center justify-center rounded-full bg-[#e8f6ea] border border-[#cce7d0] text-[#088178]"></i></a>
+            </div>
+            <!-- Add more products similarly -->  
+        </div>
+    </section>
+
+    <!-- call to action section -->
+    <section id="banner" class="mt-10 mb-10 flex flex-col justify-center items-center text-center">
+        <h4 class="">Repair Services</h4>
+        <h2 class="font-bold text-2xl">Up to <span class="text-red-600 font-bold">70% Off</span> - All t-Shirts & Accessories</h2>
+        <button class="normal font-bold bg-white text-black py-3 px-10 mt-4">Explore More</button>
+    </section>
+
+    <!-- new arrival -->
+    <section id="product1" class="pt-10 pb-10 px-20 text-center">
+        <h2 class="font-bold text-3xl">New Arrivals</h2>
+        <p class="">Summer Collection New Modern Design</p>
+        <div class="pro-container flex justify-between pt-10 flex-wrap">
+            <div class="pro w-1/4 min-w-[250px] p-3 border border-[#cce7d0] rounded-2xl shadow-md m-2 transition duration-300 hover:shadow-lg relative">
+                <img src="image/products/n1.jpg" alt="" class="w-full rounded-lg">
+                <div class="des text-left p-2">
+                    <span class="text-gray-600 text-sm">adidas</span>
+                    <h5 class="font-bold text-lg">Cartoon Astronaut T-Shirts</h5>
+                    <div class="star">
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                        <i class="fas fa-star text-yellow-500"></i>
+                    </div>
+                    <h4 class="font-bold text-[#088178]">$78</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping absolute bottom-5 right-5 w-10 h-10 flex items-center justify-center rounded-full bg-[#e8f6ea] border border-[#cce7d0] text-[#088178]"></i></a>
+            </div>
+            <!-- Repeat for other new arrival products -->
+        </div>
+    </section>
+
+    <!-- small banner -->
+    <section id="sm-banner" class="pt-10 pb-10 px-20 flex flex-wrap">
+        <div class="banner-box flex flex-col justify-center items-start p-8 bg-cover min-w-[300px] h-[50vh] bg-[url('image/banner/b17.jpg')]">
+            <h4 class="text-white">Crazy deals</h4>
+            <h2 class="text-white text-2xl">buy 1 get 1 free</h2>
+            <span class="text-white">The best classic dress is on the sale at</span>
+            <button class="white font-bold bg-transparent border border-white text-white py-2 px-4 mt-2">Learn More</button>
+        </div>
+        <div class="banner-box flex flex-col justify-center items-start p-8 bg-cover min-w-[300px] h-[50vh] bg-[url('image/banner/b10.jpg')]">
+            <h4 class="text-white">Spring/Summer</h4>
+            <h2 class="text-white text-2xl">upcoming season</h2>
+            <span class="text-white">The best classic dress is on the sale at</span>
+            <button class="white font-bold bg-transparent border border-white text-white py-2 px-4 mt-2">Collection</button>
+        </div>
+    </section>
+
+    <!-- text banner -->
+    <section id="banner-3" class="flex justify-between flex-wrap pt-0 pb-0 px-20">
+        <div class="banner-box flex flex-col justify-center items-start bg-cover min-w-[30%] h-[30vh] bg-[url('image/banner/b7.jpg')] p-5">
+            <h2 class="text-white">SEASONAL SALE</h2>
+            <h3 class="text-[#ec544e]">Winter Collection -50% OFF</h3>
+        </div>
+        <div class="banner-box flex flex-col justify-center items-start bg-cover min-w-[30%] h-[30vh] bg-[url('image/banner/b4.jpg')] p-5">
+            <h2 class="text-white">NEW FOOTWEAR COLLECTION</h2>
+            <h3 class="text-[#ec544e]">Spring / Summer 2025</h3>
+        </div>
+        <div class="banner-box flex flex-col justify-center items-start bg-cover min-w-[30%] h-[30vh] bg-[url('image/banner/b18.jpg')] p-5">
+            <h2 class="text-white">T-SHIRTS</h2>
+            <h3 class="text-[#ec544e]">New Trendy Prints</h3>
+        </div>
+    </section>
+
+    <!-- newsletter section -->
+    <section id="newsletter" class="flex justify-between flex-wrap items-center pt-10 pb-10 px-20 mt-10 mb-5">
+        <div class="newstext">
+            <h4 class="text-2xl font-bold text-white">Sign Up For newsletters</h4>
+            <p class="text-lg text-[#818ea0]">Get E-mail updates about our latest shop and <span class="text-[#ffbd27]">special offers</span></p>
+        </div>
+        <div class="form flex w-1/2">
+            <input type="text" placeholder="Your email address" class="h-12 px-4 border border-transparent rounded-l-md focus:outline-none">
+            <button class="normal font-bold bg-[#088178] text-white py-2 px-4 rounded-r-md">Sign Up</button>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="pt-10 pb-10 px-20 flex justify-between flex-wrap">
+        <div class="col">
+            <img src="image/logo.png" alt="">
+            <h4 class="font-bold">Contact</h4>
+            <div>
+                <address class="text-sm"><strong>Address:</strong> 353 Gurunank Pura Model Town Phagwada 14401 Punjab</address>
+                <span class="block text-sm"><strong>Phone:</strong> +91 9580584500</span>
+                <span class="block text-sm"><strong>Hours:</strong> 10:00 - 18:00 mon-sat</span>
+            </div>
+            <br>
+            <div class="follow">
+                <h4 class="font-bold">Follow us</h4>
+                <div class="icon space-x-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-x-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h4 class="font-bold">About</h4>
+            <ul>
+                <li><a href="#" class="text-[#1a1a1a] hover:text-[#088178]">About us</a></li>
+                <li><a href="#" class="text-[#1a1a1a] hover:text-[#088178]">Delivery Information</a></li>
+                <li><a href="#" class="text-[#1a1a1a] hover:text-[#088178]">Privacy Policies</a></li>
+                <li><a href="#" class="text-[#1a1a1a] hover:text-[#088178]">Terms and Conditions</a></li>
+            </ul>
+        </div>
+        <div>
+            <h4 class="font-bold">My Account</h4>
+            <ul>
+                <li><a href="#" class="text-[#1a1a1a] hover:text-[#088178]">Sign In</a></li>
+                <li><a href="#" class="text-[#1a1a1a] hover:text-[#088178]">View Cart</a></li>
+                <li><a href="#" class="text-[#1a1a1a] hover:text-[#088178]">My Wishlist</a></li>
+                <li><a href="#" class="text-[#1a1a1a] hover:text-[#088178]">Help</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
